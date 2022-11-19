@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+
+body,
+html{
+    font-family: 'Passion One', cursive;
+    background-color: #F8F0E3;
+    scroll-behavior: smooth;
+}
+
+.viga{
+    font-family: 'Viga', sans-serif;
+}
+
+.explore:hover .rocket{
+    transform: rotate(90deg);
+}
+
+.rocket{
+    transition: rotate, 500ms ease-in-out;
+}
+
+.hero{
+    background: url("./images/candlebg.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.star{
+    background: url("./images/star.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.merch{
+    background: url("./images/merchBg.JPEG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+.footer{
+    background: url("./images/footer.PNG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+.nav{
+    background: url("./images/nav.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.active{
+    color: rgb(220, 38, 38)
+}
+
+@media (max-width: 728px) {
+    .footer{
+        background-position: right;
+    }
+
+    .nav{
+        background-position: right !important;
+    }
+}
